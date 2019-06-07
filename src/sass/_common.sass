@@ -4,12 +4,74 @@ body
 	font-family: 'Gothic'
 	font-size: 14px
 	line-height: 1.85
+	position: relative
+
+.preloader
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+	position: fixed
+	z-index: 100
+	&__in
+		background-image: radial-gradient(370.00px at 50% 50%, #195B05 0%, #003820 100%)
+		background-size: cover
+		height: 100%
+		width: 100%
+	&__center
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		text-align: center
+		width: 100%
+	&__logo
+		animation: perfectGropSlideTop 3s forwards;
+		// opacity: 0
+		svg
+			width: 100%
+	&__number
+		color: #E4F3DD
+		margin-top: 30px
+		font-family: 'Gothic-Bold'
+.letter-e
+  animation: perfectGropSlideRight 2s forwards
+  opacity: 0
+.letter-g
+	animation: perfectGropSlideLeft 2s forwards
+	opacity: 0
+.letter
+	animation: perfectGropSlideCenter 3s forwards
+	opacity: 0
+@keyframes perfectGropSlideCenter
+  from
+    opacity: 0
+  to 
+    opacity: 1
+@keyframes perfectGropSlideRight
+  from
+    opacity: 0
+    transform: translateX(-100%)
+  to 
+    opacity: 1
+    transform: translateX(0%)
+@keyframes perfectGropSlideLeft
+  from
+    opacity: 0
+    transform: translateX(100%)
+  to 
+    opacity: 1
+    transform: translateX(0%)
 
 .title-lg
 	font-size: 48px
 	color: #ffffff
 	font-family: 'Gothic-Bold'
 	line-height: 1.23
+	+r(1280)
+		font-size: 36px
+	+r(768)
+		font-size: 18px
 
 .title-md
 	font-size: 36px
@@ -78,15 +140,23 @@ body
 	position: fixed
 	z-index: 10
 	width: 100%
+	top: 0
 	&__in
 		background: rgba(112, 182, 44, 0.9)
 		font-family: 'Gothic-Bold'
+	&__right
+		display: flex
+		align-items: center
+		.tel
+			margin-right: 20px
 
 .container
 	max-width: 1280px
 	padding: 0 50px
 	margin: 0 auto
 	position: relative
+	+r(1280)
+		padding: 0 25px
 
 
 .header__wrap
@@ -113,6 +183,8 @@ body
 		font-family: 'Gothic-Bold'
 		color: #ffffff
 		text-decoration: none
+	+r(1280)
+		display: none
 .lang
 	display: flex
 	flex-direction: column
@@ -166,7 +238,7 @@ body
 	position: relative
 	height: 640px
 	overflow: hidden
-	padding-top: 77px
+	margin-top: 77px
 
 .slider-one
 	&__info
@@ -179,9 +251,13 @@ body
 		background-repeat: no-repeat
 		background-position: 6%
 		background-size: cover
+		+r(1280)
+			background-position: 49% 0
 	&__info-in
 		padding-top: 200px
 		max-width: 496px
+		+r(1280)
+			max-width: 360px
 	&__text
 		margin: 15px 0 40px
 		font-size: 18px
@@ -224,9 +300,15 @@ body
 		display: flex
 		justify-content: space-between
 		margin: 0 -10px
+		+r(1280)
+			flex-direction: column
+			margin: 0
 	&__item
 		width: 50%
 		margin: 0 10px
+		+r(1280)
+			width: 100%
+			margin: 0
 	&__subtitle
 		margin-bottom: 32px
 		color: #003820
@@ -284,7 +366,7 @@ body
 		img
 			display: block
 			height: 100%
-			max-width: 100%
+			width: 100%
 			object-fit: cover
 	&__btns
 		position: absolute
@@ -322,9 +404,17 @@ body
 		display: flex
 		justify-content: space-between
 		margin: 0 -40px
+		+r(1280)
+			margin: 0 -20px
+		+r(768)
+			flex-direction: column
 	&__item
 		width: 50%
 		margin: 0 40px
+		+r(1280)
+			margin: 0 20px
+		+r(768)
+			width: 100%
 	&__btn
 		text-align: center
 		margin: 0 auto
@@ -352,7 +442,7 @@ body
 		background: url('../img/rectangle.png')
 		// opacity: 0.75
 		// background-image: url('../img/rectangle.jpg')
-		background-repeat: no-repeat--
+		background-repeat: no-repeat
 		background-position: center
 		background-size: cover
 		color: #E4F3DD
@@ -362,10 +452,14 @@ body
 		justify-content: space-between
 	&__text-bold
 		width: 30%
+		+r(1280)
+			width: 37%
 	&__text-light
 		width: 33%
+		+r(1280)
+			width: 41%
 	&__images
-		padding-right: 95px
+		padding-right: 15px
 		widows: 20%
 	&__center
 		position: relative
@@ -404,6 +498,8 @@ body
 		position: absolute
 		top: 20%
 		right: 16%
+		+r(1280)
+			right: 2%
 	&__icon
 		width: 100px
 		height: 100px
@@ -421,14 +517,18 @@ body
 	&__btn
 		max-width: 280px
 		margin: 25px 0 0 auto
+		+r(1280)
+			max-width: 227px
 	&__subtitle
 		margin-bottom: 15px
 	&__bottom
-		display: flex
+		// display: flex
 		padding: 60px 0
 	&__proect
 		flex: 0 0 41%
 		min-width: 41%
+		+r(1280)
+			margin-bottom: 30px
 		img
 			display: block
 			width: 100%
@@ -526,8 +626,12 @@ body
 	&__in
 		display: flex
 		justify-content: space-between
+		+r(1280)
+			flex-direction: column
 	&__item
 		width: 49%
+		+r(1280)
+			width: 100%
 	&__title
 		margin-bottom: 20px
 	&__video
@@ -582,6 +686,8 @@ body
 	&__in
 		max-width: 925px
 		margin: 0 auto
+		+r(1280)
+			padding: 0 70px
 	&__btns
 		position: absolute
 		left: 0
@@ -615,14 +721,23 @@ body
 		display: flex
 		align-items: center
 		justify-content: space-between
+		max-width: 1280px
+		margin: 0 auto
+		+r(1280)
+			padding: 0 0 0 25px
 	&__form
 		display: inline-block
 		background: rgba(108, 190, 69, 0.4)
 		border-radius: 60px 0px
 		padding: 30px
 		text-align: center
+		min-width: 290px
 	&__info
 		position: relative
+		margin-left: 30px
+		+rmin(1300)
+			position: absolute
+			right: 0
 	&__info-in
 		position: absolute
 		top: 18%
@@ -645,6 +760,10 @@ body
 			width: 32px
 			height: 32px
 			fill: #6CBE45
+	&__img
+		img
+			display: block
+			max-width: 100%
 
 
 .mainForm
@@ -683,6 +802,11 @@ body
 	//    	      color: #fff
 	//    	      z-index: 2
 	//    	      font-size: 25px
+	&__title
+		margin-bottom: 20px
+		.text-bold
+			+r(1280)
+				font-size: 18px
 	&__text
 	    position: absolute
 	    top: 50%
@@ -737,3 +861,18 @@ body
 	&__link
 		text-decoration: none
 		margin-right: 10px
+// .video-background::-webkit-media-controls-start-playback-button
+//     display: none !important
+
+
+.footer
+	position: absolute
+	bottom: 0
+	left: 0
+	right: 0
+	&__in
+		display: flex
+		justify-content: space-between
+
+.copyright
+	color: #E4F3DD

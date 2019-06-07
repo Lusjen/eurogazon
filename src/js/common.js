@@ -56,7 +56,15 @@ jQuery(document).ready(function($) {
 	  speed: 300,
 	  slidesToShow: 2,
 	  adaptiveHeight: true,
-	  arrows: false
+	  arrows: false,
+	  responsive: [
+	      {
+	        breakpoint: 1280,
+	        settings: {
+	          slidesToShow: 1
+	        }
+	      } 
+	    ]
 	});
 
 	$('.slider-reviews__btn-prev').on('click', function(){
@@ -99,7 +107,7 @@ function findVideos() {
 function setupVideo(videon) {
 var videoPlayButton,
 	videoWrapper = videon.querySelector('.video__video'),
-    video = videon.querySelector('.video'),
+    video = videon.querySelector('.js-video'),
     videoMethods = {
         renderVideoPlayButton: function() {
             if (videoWrapper.contains(video)) {
@@ -235,3 +243,67 @@ var mainForm = function () {
           //анимируем переход на расстояние - top за 1000 мс
           $('body,html').animate({scrollTop: top}, 1000);
   	});
+ // var loader = function () {
+ //  	$(".preloader").delay(1000).fadeOut(500);
+ // };
+
+ // loader();
+
+ // var sagapreloaderAnimation = (function() {
+ //     var preloaderContainer = document.querySelector('.preloader');
+ //       function init() {
+ //           // sessionStorage.setItem('preloaderRan', true);
+ //           var circle = document.querySelector('.svg-circle');
+ //           var loadingCircle = document.querySelector('.svg-loading-circle');
+ //           var loadingCircleText = document.querySelector('.preloader__number');
+
+ //           var currentOffset = 236;
+ //           var startingOffset = currentOffset;
+ //           var step = 2.5;
+ //           preloaderContainer.style.display = 'block';
+
+ //           // js based animation starts here
+ //           circle.addEventListener('animationstart', animateLoadingCircle);
+ //           function calculatePercents(current) {
+ //               return Math.ceil((100 - (current / startingOffset) * 100));
+ //           };
+ //           console.log(calculatePercents(currentOffset))
+ //           function animateLoadingCircle() {
+ //               currentOffset -= step;
+ //               loadingCircle.style.strokeDashoffset = currentOffset;
+ //               if(currentOffset >= 0) {
+ //                   loadingCircleText.innerHTML = calculatePercents(currentOffset) + '%';
+ //                   requestAnimationFrame(animateLoadingCircle);
+ //               } else {
+ //                   preloaderContainer.classList.add('remove-svg');
+ //               }
+ //           };
+
+ //       };
+
+ //       return {
+ //        init: init,
+ //        preloaderContainer: preloaderContainer,
+ //        // checkDate: checkDate
+ //      };
+ //  })();
+ //  if(window.innerWidth > 768) {
+ //      sagapreloaderAnimation.init();
+ //    } else {
+ //      sagapreloaderAnimation.preloaderContainer.style.display = 'none';
+ //    }
+
+ max = 100
+ time = (1000/max)*2,	
+ value = 0
+ var loading = function() {
+     value += 1;
+     $('.preloader__number').html(value + '%');
+     if (value == max) {
+         clearInterval(animate);
+         $('.preloader').fadeOut(500);			           
+     }
+ };
+ var animate = setInterval(function() {
+     loading();
+ }, time);
