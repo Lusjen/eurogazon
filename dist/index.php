@@ -20,22 +20,22 @@
 					</div>
 					<ul class="menu">
 						<li class="menu__item">
-							<a href="#" class="menu__link">Проектування</a>
+							<a href="#one" class="menu__link">Проектування</a>
 						</li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">Системи Автоматичного поливу</a>
+							<a href="#two" class="menu__link">Системи Автоматичного поливу</a>
 						</li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">Рулонний газон</a>
+							<a href="#three" class="menu__link">Рулонний газон</a>
 						</li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">Послуги</a>
+							<a href="#four" class="menu__link">Послуги</a>
 						</li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">Відео-Фото</a>
+							<a href="#five" class="menu__link">Відео-Фото</a>
 						</li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">Контакти</a>
+							<a href="#six" class="menu__link">Контакти</a>
 						</li>
 					</ul>
 					<div class="tel">
@@ -83,7 +83,7 @@
 	</header>
 	<!-- end header -->
 	<!-- begin one -->
-	<div class="one">
+	<div class="one" id="#one">
 		<div class="slider-one js-slider-one">
 			<div class="slider-one__item">
 				<img src="img/bg-1.png" alt="">
@@ -127,7 +127,7 @@
 	</div>
 	<!-- end one -->
 	<!-- begin two -->
-	<div class="two">
+	<div class="two" id="one">
 		<div class="container">
 			<div class="two__title">
 				<h2 class="title-md">Проектування</h2>
@@ -141,7 +141,6 @@
 					<div class="two__info">
 						<span class="green">Ландшафтне проектування можна сміливо вважати основою мистецтва під назвою "Ландшафтний дизайн"!</span> Але, для успішного втілення Вашої садової мрії в реальність, слід починати з того, щоб детально розробити ландшафтний проект. Для досягнення цієї мети фахівці з озеленення повинні мати досить глибокими науковими знаннями підкріпленими практичні досвідом. Саме такі люди будуть займатися ландшафтним проектуванням озеленення Вашої ділянки якщо Ви звернетеся в компанію "Магія саду" Київ.
 						Але, для успішного втілення Вашої садової мрії в реальність, слід починати з того, щоб детально розробити ландшафтний проект. Для досягнення цієї мети фахівці з озеленення повинні мати досить глибокими науковими знаннями підкріпленими практичні досвідом. Саме такі люди будуть займатися ландшафтним проектуванням озеленення Вашої ділянки якщо Ви звернетеся в компанію "Магія саду" Київ.
-						</span>
 					</div>
 				</div>
 				<div class="two__item">
@@ -251,7 +250,7 @@
 	<!-- end three -->
 
 	<!-- begin four -->
-	<div class="four">
+	<div class="four" id="two">
 		<div class="container">
 			<div class="four__title">
 				<h2 class="title-md">
@@ -274,7 +273,7 @@
 				</div>
 			</div>	
 		</div>
-		<div class="four__center">
+		<div class="four__center" id="three">
 			<!-- <img src="img/maxresdefault.jpg" alt=""> -->
 			<div class="four__main">
 				<div class="four__left">
@@ -348,7 +347,7 @@
 	<!-- end four -->
 		
 	<!-- begin five -->
-	<div class="five">
+	<div class="five" id="five">
 		<div class="container">
 			<div class="five__title">
 				<h2 class="title-md">
@@ -486,7 +485,7 @@
 	<!-- end reviews -->
 
 	<!-- begin contacts -->
-	<div class="contacts">
+	<div class="contacts" id="six">
 		<div class="container">
 			<div class="reviews__title">
 				<h2 class="title-md">
