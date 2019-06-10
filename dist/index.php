@@ -53,19 +53,23 @@
 						<li class="menu__item">
 							<a href="#six" class="menu__link">Контакти</a>
 						</li>
-					</ul>
+					</ul>		
 					<div class="header__right">
 						<div class="tel">
+							<img src="img/tel.svg" alt="">
 							<a href="tel:+8067 327-12-87" class="tel__link">(067) 327-12-87</a>
 						</div>
 						<div class="lang">
 							<a href="" class="lang__item">Рус</a>
 							<a href="" class="lang__item">Укр</a>
 						</div>
+						<div class="menu-btn-mob">
+							<p>Меню</p>
+						</div>
 					</div>
-					
 				</div>
 			</div>
+
 		</div>
 		<!-- <div class="container"> -->
 			<div class="logo-circle">
@@ -101,6 +105,35 @@
 				
 	</header>
 	<!-- end header -->
+
+	<div class="menu-mob">
+		<div class="menu-mob__overlay"></div>
+		<div class="menu-mob__content">
+			<ul>
+				<li class="menu-mob__item">
+					<a href="#one" class="menu-mob__link">Проектування</a>
+				</li>
+				<li class="menu-mob__item">
+					<a href="#two" class="menu-mob__link">Системи Автоматичного поливу</a>
+				</li>
+				<li class="menu-mob__item">
+					<a href="#three" class="menu-mob__link">Рулонний газон</a>
+				</li>
+				<li class="menu-mob__item">
+					<a href="#four" class="menu-mob__link">Послуги</a>
+				</li>
+				<li class="menu-mob__item">
+					<a href="#five" class="menu-mob__link">Відео-Фото</a>
+				</li>
+				<li class="menu-mob__item">
+					<a href="#six" class="menu-mob__link">Контакти</a>
+				</li>
+			</ul>
+			
+		<div class="btn-close">X</div>
+		</div>
+	</div>
+
 	<!-- begin one -->
 	<div class="one" id="#one">
 		<div class="slider-one js-slider-one">
@@ -212,27 +245,27 @@
 					<ul class="list-block">
 						<li class="list-block__item">
 							<img src="img/Icon 1.svg" alt="">
-							<span class="list-block__text">Ландшафтний ескіз дизайн проекту;</span>
+							<span class="list-block__text"><span class="bold">Ландшафтний ескіз</span> дизайн проекту;</span>
 						</li>
 						<li class="list-block__item">
 							<img src="img/Icon 2.svg" alt="">
-							<span class="list-block__text">3D-візуалізація ландшафтного проекту;</span>
+							<span class="list-block__text"><span class="bold">3D-візуалізація</span> ландшафтного проекту;</span>
 						</li>
 						<li class="list-block__item">
 							<img src="img/Icon 3.svg" alt="">
-							<span class="list-block__text">2D-візуалізація ландшафтного проекту;</span>
+							<span class="list-block__text"><span class="bold">2D-візуалізація</span> ландшафтного проекту;</span>
 						</li>
 						<li class="list-block__item">
 							<img src="img/Icon 4.svg" alt="">
-							<span class="list-block__text">Генеральний план ландшафтного дизайн проекту;</span>
+							<span class="list-block__text"><span class="bold">Генеральний план</span> ландшафтного дизайн проекту;</span>
 						</li>
 						<li class="list-block__item">
 							<img src="img/Icon 5.svg" alt="">
-							<span class="list-block__text">Дендрологічний план озеленення (дендроплан);</span>
+							<span class="list-block__text"><span class="bold">Дендрологічний план</span> озеленення (дендроплан);</span>
 						</li>
 						<li class="list-block__item">
 							<img src="img/Icon 6.svg" alt="">
-							<span class="list-block__text">Роздільне креслення</span>
+							<span class="list-block__text bold">Роздільне креслення</span>
 						</li>
 					</ul>
 				</div>
@@ -240,23 +273,23 @@
 					<ul class="list-block">
 						<li class="list-block__item">
 							<img src="img/Icon 7.svg" alt="">
-							<span class="list-block__text">Посадкове креслення;</span>
+							<span class="list-block__text bold">Посадкове креслення;</span>
 						</li>
 						<li class="list-block__item">
 							<img src="img/Icon 8.svg" alt="">
-							<span class="list-block__text">План-схема системи автоматичного поливу;</span>
+							<span class="list-block__text"><span class="bold">План-схема системи</span> автоматичного поливу;</span>
 						</li>
 						<li class="list-block__item">
 							<img src="img/Icon 9.svg" alt="">
-							<span class="list-block__text">Схема розстановки освітлювальних приладів;</span>
+							<span class="list-block__text"><span class="bold">Схема розстановки</span> освітлювальних приладів;</span>
 						</li>
 						<li class="list-block__item">
 							<img src="img/Icon 10.svg" alt="">
-							<span class="list-block__text">Геодезична або топографічна зйомка ділянки (при необхідності);</span>
+							<span class="list-block__text"><span class="bold">Геодезична або топографічна</span> зйомка ділянки (при необхідності);</span>
 						</li>
 						<li class="list-block__item">
 							<img src="img/Icon 11.svg" alt="">
-							<span class="list-block__text">Робочі креслення реалізації ландшафтного проектування дизайну озеленення.</span>
+							<span class="list-block__text"><span class="bold">Робочі креслення</span> реалізації ландшафтного проектування дизайну озеленення.</span>
 						</li>						
 					</ul>
 				</div>
@@ -297,7 +330,7 @@
 			<div class="four__main">
 				<div class="four__left">
 					<div class="four__item">
-						<img src="img/rectangle1.png" alt="">
+						<img src="img/rectangle1.svg" alt="">
 						<div class="four__info">
 							<div class="four__icon">
 								<img src="img/ball.svg" alt="">
@@ -308,7 +341,7 @@
 						
 					</div>
 					<div class="four__item">
-						<img src="img/rectangle1.png" alt="">
+						<img src="img/rectangle1.svg" alt="" class="img-rotate">
 						<div class="four__info">
 							<div class="four__icon">
 								<img src="img/butterfl.svg" alt="">
@@ -319,7 +352,7 @@
 					</div>
 				</div>
 				<div class="four__right">
-					<img src="img/letter.png" alt="">
+					<img src="img/letter.svg" alt="">
 					<div class="four__info-big">
 						<div class="four__subtitle">
 							<span class="title-lg">
@@ -544,7 +577,7 @@
 			</div>
 			<div class="contacts__info">
 				<div class="contacts__img">
-					<img src="img/letter2.png" alt="">
+					<img src="img/letter2.svg" alt="">
 				</div>
 				<div class="contacts__info-in">
 					<ul class="contacts-list">

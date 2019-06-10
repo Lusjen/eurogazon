@@ -42,7 +42,7 @@ gulp.task('sass', function() {
 	.pipe(sass({ outputStyle: 'expanded' }).on("error", notify.onError()))
 	.pipe(rename({ suffix: '.min', prefix : '' }))
 	.pipe(autoprefixer(['last 15 versions']))
-	.pipe(cleancss( {level: { 1: { specialComments: 0 } } })) // Opt., comment out when debugging
+	.pipe(cleancss( {level: { 1: { specialComments: 0 } } }))
 	.pipe ( sourcemaps . write ('.'))
 
 	.pipe(gulp.dest('dist/css'))
@@ -114,6 +114,7 @@ gulp.task('js', function() {
 		// 'src/js/libs/ion.rangeSlider.js',
 		'src/js/common.js', // Always at the end
 		'src/js/libs/slick.min.js',
+		// "src/js/libs/wow.js"
 		])
 	.pipe(concat('scripts.min.js'))
 	// .pipe(uglify()) // Mifify js (opt.)
