@@ -141,6 +141,9 @@ body
 	text-decoration: none
 	text-align: center
 	display: block
+	+r(768)
+		font-size: 14px
+		padding: 8px
 
 .text-bold
 	font-size: 24px
@@ -149,6 +152,16 @@ body
 	line-height: 1.58
 	+r(768)
 		font-size: 18px
+.container
+	max-width: 1280px
+	padding: 0 50px
+	margin: 0 auto
+	position: relative
+	+r(1280)
+		padding: 0 25px
+	+r(768)
+		padding: 0 20px
+
 
 .header
 	position: fixed
@@ -163,16 +176,8 @@ body
 		align-items: center
 		.tel
 			margin-right: 20px
-
-.container
-	max-width: 1280px
-	padding: 0 50px
-	margin: 0 auto
-	position: relative
-	+r(1280)
-		padding: 0 25px
-	+r(768)
-		padding: 0 20px
+	&__mob
+		padding: 0 0 0 20px
 
 
 .header__wrap
@@ -184,6 +189,7 @@ body
 		padding: 0
 
 .tel
+	text-decoration: none
 	padding: 13px 30px
 	background: linear-gradient(360deg, #003820 0%, #56A33E 120%)
 	opacity: 0.8
@@ -197,7 +203,6 @@ body
 			display: block
 	&__link 
 		display: block
-		text-decoration: none
 		color: #E4F3DD
 		+r(768)
 			display: none
@@ -254,9 +259,21 @@ body
 	top: 10px
 	right: 10px
 	cursor: pointer
-	width: 10px
-	height: 10px
-	color: white
+	width: 20px
+	height: 20px
+	color: #6cbe45
+	&:before,
+	&:after
+		content: ''
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)rotate(45deg)
+		width: 20px
+		height: 2px
+		background-color: #6cbe45
+	&:after
+	    transform: translate(-50%,-50%)rotate(-45deg)
 
 .logo-circle
 	position: absolute
@@ -360,10 +377,17 @@ body
 		background-image: none
 		&:hover
 			background-image: url('../img/Vector.svg')
+			background-repeat: no-repeat
+			background-size: contain
+			background-position: center
+
 	&__btn-next
 		transform: rotate(-180deg)
 		&:hover
 			background-image: url('../img/Vector.svg')
+			background-repeat: no-repeat
+			background-size: contain
+			background-position: center
 
 .two
 	padding: 40px 0 70px
@@ -605,6 +629,21 @@ body
 			display: block
 	&__right
 		position: relative
+		max-width: 690px
+		width: 100%
+		background-image: url('../img/letter.svg')
+		background-repeat: no-repeat
+		background-size: cover
+		padding: 150px 0
+		+r(768)
+			margin: 0 0 0 auto
+			background-position: top right
+			padding: 160px 0 160px
+		+r(500)
+			padding: 100px 0 180px
+	&__right-in
+		+r(768)
+			padding: 0 20px
 	&__left
 		padding: 120px 0
 		+r(768)
@@ -635,11 +674,14 @@ body
 		color: #E4F3DD
 	&__info-big
 		max-width: 388px
-		position: absolute
-		top: 20%
-		right: 16%
-		+r(1280)
-			right: 2%
+		margin: 0 7% 0 auto
+		// position: absolute
+		// top: 20%
+		// right: 16%
+		// +r(1280)
+		// 	right: 2%
+		+r(768)
+			margin: 0 20px 0 auto
 	&__icon
 		width: 100px
 		height: 100px
@@ -699,7 +741,7 @@ body
 		&::-webkit-scrollbar-thumb
   			background-color: #6CBE45
 
-.five
+.foto-video
 	padding: 10px 0 60px
 	+r(1280)
 		padding: 10px 0 20px
@@ -733,7 +775,7 @@ body
 		cursor: pointer
 		width: 100px
 		height: 119px
-		background-image: url('../img/subtract.png')
+		background-image: url('../img/subtract.svg')
 		background-repeat: no-repeat
 		position: relative
 		background-size: cover
@@ -751,7 +793,7 @@ body
 		cursor: pointer
 		width: 100px
 		height: 119px
-		background-image: url('../img/subtract.png')
+		background-image: url('../img/subtract.svg')
 		background-repeat: no-repeat
 		position: relative
 		background-size: cover
@@ -898,10 +940,12 @@ body
 	background-repeat: no-repeat
 	background-size: cover
 	overflow: hidden
+	+r(768)
+		padding: 60px 0 60px
 	&__main
 		padding: 0 0 0 50px
 		display: flex
-		align-items: center
+		// align-items: center
 		justify-content: space-between
 		max-width: 1280px
 		margin: 0 auto
@@ -909,7 +953,10 @@ body
 			padding: 0 0 0 25px
 		+r(768)
 			display: block
-			padding: 0 20px
+			padding: 0
+		+r(420)
+			// padding: 0 20px
+			padding: 0
 	&__form
 		display: inline-block
 		background: rgba(108, 190, 69, 0.4)
@@ -917,26 +964,46 @@ body
 		padding: 30px
 		text-align: center
 		min-width: 290px
+		max-width: 380px
 		+r(768)
-			min-width: 100%
+			display: block
+			width: 80%
 			margin-bottom: 20px
+			max-width: 450px
+			margin: 0 auto
 	&__info
 		position: relative
-		margin-left: 30px
+		margin-left: 15px
+		background-image: url('../img/letter2.svg')
+		background-repeat: no-repeat
+		background-position: 0 -31px
+		max-width: 570px
+		width: 100%
+		padding: 80px 0 190px
 		+rmin(1300)
 			position: absolute
 			right: 0
 		+r(768)
+			max-width: 100%
+			background-position: top right
+			background-size: 66%
+			margin-left: 0
+			padding: 144px 0 131px
+		+r(550)
+			background-size: cover
+			padding: 118px 0 172px
 			margin-left: 0
 	&__info-in
-		position: absolute
-		top: 18%
-		left: 32%
+		// position: absolute
+		// top: 18%
+		// left: 32%
+		max-width: 260px
+		margin: 0 auto
 		+r(768)
-			position: relative
-			top: 0
-			left: 0
-			padding-top: 55px
+			// left: 46%
+			margin: 0 20px 0 auto
+		+r(550)
+			margin: 0 auto
 	&__link
 		display: flex
 		align-items: center
@@ -949,6 +1016,8 @@ body
 	&__soc
 		padding-left: 35px
 		color: #E4F3DD
+		+r(1280)
+			padding-left: 95px
 		.svg-facebook,
 		.svg-youtube,
 		.svg-instagram
@@ -957,9 +1026,12 @@ body
 			fill: #6CBE45
 	&__img
 		+r(768)
+			max-width: 80%
+		+r(420)
 			position: absolute
 			width: 147%
 			left: -40%
+			max-width: 100%
 		img
 			display: block
 			width: 100%
@@ -1072,12 +1144,17 @@ body
 	&__in
 		display: flex
 		justify-content: space-between
+		align-items: center
 		flex-wrap: wrap
 
 .copyright
 	color: #E4F3DD
 	margin-right: 20px
 
+.logo-dev
+	img
+		display: block
+		max-width: 100%
 
 .menu-mob,
 .menu-mob__overlay
@@ -1097,7 +1174,7 @@ body
 	&__item
 		margin-bottom: 15px
 	&__link
-		color: #ffffff
+		color: #6cbe45
 		font-family: 'Gothic-Bold'
 		text-decoration: none
 		font-size: 18px

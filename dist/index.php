@@ -29,7 +29,7 @@
 	<!-- begin header -->
 	<header class="header">
 		<div class="header__in">
-			<div class="container">
+			<div class="container header__mob">
 				<div class="header__wrap">
 					<div class="logo">
 						<img src="img/EG_logo_eng.svg" alt="logo">
@@ -48,17 +48,17 @@
 							<a href="#four" class="menu__link">Послуги</a>
 						</li>
 						<li class="menu__item">
-							<a href="#five" class="menu__link">Відео-Фото</a>
+							<a href="#foto-video" class="menu__link">Відео-Фото</a>
 						</li>
 						<li class="menu__item">
 							<a href="#six" class="menu__link">Контакти</a>
 						</li>
 					</ul>		
 					<div class="header__right">
-						<div class="tel">
+						<a href="tel:+8067 327-12-87" class="tel">
 							<img src="img/tel.svg" alt="">
-							<a href="tel:+8067 327-12-87" class="tel__link">(067) 327-12-87</a>
-						</div>
+							<span class="tel__link">(067) 327-12-87</span>
+						</a>
 						<div class="lang">
 							<a href="" class="lang__item">Рус</a>
 							<a href="" class="lang__item">Укр</a>
@@ -123,14 +123,14 @@
 					<a href="#four" class="menu-mob__link">Послуги</a>
 				</li>
 				<li class="menu-mob__item">
-					<a href="#five" class="menu-mob__link">Відео-Фото</a>
+					<a href="#foto-video" class="menu-mob__link">Відео-Фото</a>
 				</li>
 				<li class="menu-mob__item">
 					<a href="#six" class="menu-mob__link">Контакти</a>
 				</li>
 			</ul>
 			
-		<div class="btn-close">X</div>
+		<div class="btn-close"></div>
 		</div>
 	</div>
 
@@ -150,7 +150,7 @@
 				<img src="img/bg-1.png" alt="">
 			</div>
 		</div>
-		<div class="slider-one__info">
+		<div class="slider-one__info wow slideInLeft">
 			<div class="container">
 				<div class="slider-one__info-in">
 					<h1 class="title-lg">
@@ -295,7 +295,7 @@
 				</div>
 			</div>
 			<div class="three__btn">
-				<a href="" target="blank" class="btn-white">Прайс</a>
+				<a href="pdf/11859.pdf" target="blank" class="btn-white">Прайс</a>
 			</div>
 		</div>
 	</div>
@@ -328,7 +328,7 @@
 		<div class="four__center" id="three">
 			<!-- <img src="img/maxresdefault.jpg" alt=""> -->
 			<div class="four__main">
-				<div class="four__left">
+				<div class="four__left wow slideInLeft">
 					<div class="four__item">
 						<img src="img/rectangle1.svg" alt="">
 						<div class="four__info">
@@ -351,18 +351,20 @@
 						</div>
 					</div>
 				</div>
-				<div class="four__right">
-					<img src="img/letter.svg" alt="">
-					<div class="four__info-big">
-						<div class="four__subtitle">
-							<span class="title-lg">
-								Рулонний газон
-							</span>
-						</div>
-						<p class="text-bold">Разом з газоном Ви отримаєте</p>
-						<p>не тільки красивий ландшафт своєї території, а також і повний спектр послуг і рекомендацій по догляду.</p>
-						<div class="four__btn">
-							<a href="" class="btn-green">Прайс</a>
+				<div class="four__right  wow slideInRight">
+					<div class="four__right-in">
+					<!-- img src="img/letter.svg" alt=""> -->
+						<div class="four__info-big">
+							<div class="four__subtitle">
+								<span class="title-lg">
+									Рулонний газон
+								</span>
+							</div>
+							<p class="text-bold">Разом з газоном Ви отримаєте</p>
+							<p>не тільки красивий ландшафт своєї території, а також і повний спектр послуг і рекомендацій по догляду.</p>
+							<div class="four__btn">
+								<a href="" class="btn-green">Прайс</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -398,15 +400,15 @@
 	</div>
 	<!-- end four -->
 		
-	<!-- begin five -->
-	<div class="five" id="five">
+	<!-- begin foto-video -->
+	<div class="foto-video" id="foto-video">
 		<div class="container">
-			<div class="five__title">
+			<div class="foto-video__title">
 				<h2 class="title-md">
 					Відео-фото
 				</h2>
 			</div>
-			<div class="five__subtitle title-sm">Наші роботи</div>
+			<div class="foto-video__subtitle title-sm">Наші роботи</div>
 		</div>
 		<div class="slider-work">
 			<div class="slider-work__in js-slider-work">
@@ -460,7 +462,7 @@
 		</div>
 		
 	</div>
-	<!-- end five -->
+	<!-- end foto-video -->
 	<!-- begin reviews -->
 	<div class="reviews">
 		<div class="container">
@@ -575,10 +577,10 @@
 		            </button>
 		        </form>
 			</div>
-			<div class="contacts__info">
-				<div class="contacts__img">
+			<div class="contacts__info  wow slideInRight">
+				<!-- <div class="contacts__img">
 					<img src="img/letter2.svg" alt="">
-				</div>
+				</div> -->
 				<div class="contacts__info-in">
 					<ul class="contacts-list">
 						<li class="contacts__item">
