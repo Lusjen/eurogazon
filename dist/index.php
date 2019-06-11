@@ -181,7 +181,7 @@
 	<!-- begin two -->
 	<div class="two" id="one">
 		<div class="container">
-			<div class="two__title">
+			<div class="two__title  wow fadeInDown">
 				<h2 class="title-md">Проектування</h2>
 			</div>
 			
@@ -235,7 +235,7 @@
 	<!-- begin three -->
 	<div class="three">
 		<div class="container">
-			<div class="three__title">
+			<div class="three__title wow fadeInDown">
 				<span class="title-lg">
 					Ландшафтний проект складається з наступних складових частин:
 				</span>
@@ -304,7 +304,7 @@
 	<!-- begin four -->
 	<div class="four" id="two">
 		<div class="container">
-			<div class="four__title">
+			<div class="four__title wow fadeInDown">
 				<h2 class="title-md">
 					Системи автоматичного поливу
 				</h2>
@@ -403,7 +403,7 @@
 	<!-- begin foto-video -->
 	<div class="foto-video" id="foto-video">
 		<div class="container">
-			<div class="foto-video__title">
+			<div class="foto-video__title wow fadeInDown">
 				<h2 class="title-md">
 					Відео-фото
 				</h2>
@@ -466,7 +466,7 @@
 	<!-- begin reviews -->
 	<div class="reviews">
 		<div class="container">
-			<div class="reviews__title">
+			<div class="reviews__title wow fadeInDown">
 				<h2 class="title-md">
 					Відгуки
 				</h2>
@@ -541,7 +541,7 @@
 	<!-- begin contacts -->
 	<div class="contacts" id="six">
 		<div class="container">
-			<div class="reviews__title">
+			<div class="reviews__title wow fadeInDown">
 				<h2 class="title-md">
 					Контакти
 				</h2>
