@@ -5,6 +5,8 @@ body
 	font-size: 14px
 	line-height: 1.85
 	position: relative
+	min-width: 320px
+	-webkit-font-smoothing: antialiased
 	+r(768)
 		font-size: 10px
 
@@ -28,8 +30,7 @@ body
 		text-align: center
 		width: 100%
 	&__logo
-		animation: perfectGropSlideTop 3s forwards;
-		// opacity: 0
+		animation: perfectGropSlideTop 3s forwards
 		svg
 			width: 100%
 	&__number
@@ -136,11 +137,14 @@ body
 	color: #E4F3DD
 	text-transform: uppercase
 	background: linear-gradient(180deg, #6CBE45 0%, #409027 100%)
-	box-shadow: 0px 10px 10px rgba(0, 56, 32, 0.1)
+	// box-shadow: 0px 10px 10px rgba(0, 56, 32, 0.1)
 	width: 100%
 	text-decoration: none
 	text-align: center
 	display: block
+	transition: box-shadow 0.5s
+	&:hover
+		box-shadow: inset 0 0 10px #003820
 	+r(768)
 		font-size: 14px
 		padding: 8px
@@ -194,6 +198,9 @@ body
 	background: linear-gradient(360deg, #003820 0%, #56A33E 120%)
 	opacity: 0.8
 	border-radius: 33px
+	transition: all 0.5s
+	&:hover
+		box-shadow: inset 0 0 10px #56a33e
 	+r(768)
 		padding: 5px
 	img
@@ -222,8 +229,25 @@ body
 		font-family: 'Gothic-Bold'
 		color: #ffffff
 		text-decoration: none
+		position: relative
+		&:before
+			position: absolute
+			bottom: -8px
+			left: 0
+			content: ''
+			display: block
+			height: 2px
+			width: 100%
+			background-color: #fff
+			transform: scale(0)
+			transition: transform 0.5s
+		&:hover::before
+			transform: scale(1)
 	+r(1280)
 		display: none
+
+.menu__link:hover .menu__link:before
+	transform: scale(1)
 
 .lang
 	display: flex
@@ -247,6 +271,10 @@ body
 	text-align: center
 	margin-left: 22px
 	cursor: pointer
+	transition: all 0.3s
+	&.active
+		box-shadow: inset 0 0 15px #003820
+		border-radius: 50%
 	+rmin(1281)
 		display: none
 	+r(768)
@@ -262,6 +290,9 @@ body
 	width: 20px
 	height: 20px
 	color: #6cbe45
+	transition: transform 0.5s
+	&:hover
+		transform: rotate(90deg)
 	&:before,
 	&:after
 		content: ''
@@ -308,21 +339,22 @@ body
 	align-items: center
 	top: 50%
 	left: 50%
-	transform: translate(-50%,-50%);
-	right: 0;
-
-.one
+	transform: translate(-50%,-50%)
+	right: 0
+	a
+		transition: all 0.5s
+		&:hover
+			transform: scale(1.2)
+.hero
 	position: relative
-	height: 640px
+	height: 100vh
 	overflow: hidden
 	margin-top: 70px
-	// +r(1280)
-	// 	margin-top: 70px
 	+r(768)
 		height: 520px
 		margin-top: 50px
 
-.slider-one
+.slider-hero
 	// height: 640px
 	&__info
 		position: absolute
@@ -358,7 +390,7 @@ body
 			display: block
 			width: 100%
 			object-fit: cover
-			height: 640px
+			height: 100vh
 			+r(768)
 				height: 520px
 	&__btns
@@ -389,7 +421,7 @@ body
 			background-size: contain
 			background-position: center
 
-.two
+.project
 	padding: 40px 0 70px
 	+r(768)
 		padding: 20px 0
@@ -458,7 +490,7 @@ body
 			transform: translate(-50%,-50%)
 			fill: #003820
 
-.slider-two
+.slider-project
 	&__wrap
 		margin 0 -15px
 		+r(768)
@@ -484,7 +516,7 @@ body
 			display: block
 			height: 100%
 			width: 100%
-			object-fit: cover
+			object-fit: contain
 	&__btns
 		position: absolute
 		top: -5px
@@ -510,7 +542,7 @@ body
 	&__btn-next
 		transform: rotate(180deg)
 
-.three
+.landscape-project
 	background: url('../img/text .jpg')
 	background-repeat: no-repeat
 	background-size: cover
@@ -562,7 +594,7 @@ body
 				width: 30px
 				height: 30px
 
-.four
+.auto-watering
 	padding-top: 40px
 	+r(768)
 		padding-top: 20px
@@ -870,23 +902,21 @@ body
 .video-overlay-play-button,
 .video-overlay-play-button0
     box-sizing: border-box
-    // width: 100%
-    // height: 100%
-    // padding: 10px calc(50% - 50px)
     top: 50%
     left: 50%
     transform: translate(-50%,-50%)
     position: absolute
-    // top: 0
-    // left: 0
     display: block
-    // opacity: 0.95
     cursor: pointer
-    // background-image: linear-gradient( #001, #000)
-    // transition: opacity 150ms
 
-.video-overlay-play-button:hover
-    opacity: 1
+// .video-overlay-play-button:hover
+//     opacity: 1
+
+.play-active
+	transition: all 0.5s
+
+.video-overlay-play-button:hover .play-active
+	fill: #6cbe45
 
 .video-overlay-play-button.is-hidden,
 .video-overlay-play-button0.is-hidden
@@ -990,10 +1020,9 @@ body
 		+r(768)
 			max-width: 100%
 			background-position: top right
-			background-size: 441px 475px
-			// background-size: 66%
+			background-size: 485px
 			margin-left: 0
-			padding: 100px 0 50px
+			padding: 137px 0 61px
 		// +r(550)
 		// 	background-size: cover
 		// 	padding: 118px 0 172px
@@ -1006,7 +1035,8 @@ body
 		margin: 0 auto
 		+r(768)
 			// left: 46%
-			margin: 0 20px 0 auto
+			margin: 0 40px 0 auto
+			font-size: 14px
 		// +r(550)
 		// 	margin: 0 auto
 	&__link
@@ -1029,6 +1059,9 @@ body
 			width: 32px
 			height: 32px
 			fill: #6CBE45
+			transition: all 0.5s
+			&:hover
+				opacity: 0.7
 	&__img
 		+r(768)
 			max-width: 80%
@@ -1078,6 +1111,9 @@ body
 	//    	      color: #fff
 	//    	      z-index: 2
 	//    	      font-size: 25px
+	&-wrap.input-focus-js
+		.mainForm__text
+			transform: translate(-40px, -50px)
 	&__title
 		margin-bottom: 20px
 		.text-bold
@@ -1091,7 +1127,7 @@ body
 	    align-items: center
 	    font-size: 14px
 	    font-weight: 400
-	    color: #154f22
+	    color: #ffffff
 	    transform: translateY(-50%)
 	    transition: all 0.5s
 	&__input
@@ -1113,24 +1149,38 @@ body
 	font-size: 16px
 	text-transform: uppercase
 	color: #FFFFFF
+	cursor: pointer
 
 
 .svg-map
 	width: 20px
 	height: 21px
 	fill: #6CBE45
+	transition: all 0.5s
+	&:hover
+		opacity: 0.7
 .svg-phone
 	width: 20px
 	height: 21px
 	fill: #6CBE45
+	transition: all 0.5s
+	&:hover
+		opacity: 0.7
+
 .svg-mail
 	width: 20px
 	height: 15px
 	fill: #6CBE45
+	transition: all 0.5s
+	&:hover
+		opacity: 0.7
 .svg-clock
 	width: 20px
 	height: 17px
 	fill: #6CBE45
+	transition: all 0.5s
+	&:hover
+		opacity: 0.7
 
 .soc-list
 	padding: 20px 0
@@ -1244,3 +1294,8 @@ body
 		transform: translate3d(-400px, 0, 0) scale3d(1.4, 0, 1)
 
 
+.social-icons
+	svg
+		width: 32px
+		height: 32px
+		fill: white

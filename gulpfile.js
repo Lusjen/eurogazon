@@ -114,6 +114,7 @@ gulp.task('js', function() {
 		// 'src/js/libs/ion.rangeSlider.js',
 		'src/js/common.js', // Always at the end
 		'src/js/libs/slick.min.js',
+		// 'src/js//libs/jquery.magnific-popup.js'
 		// "src/js/libs/wow.js"
 		])
 	.pipe(concat('scripts.min.js'))
