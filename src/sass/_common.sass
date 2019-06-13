@@ -317,6 +317,8 @@ body
 	// animation-direction: alternate /* or: normal */
 	animation-timing-function: ease-out
 	animation-delay: 3s
+	+h(360)
+		right: 50px
 
 @keyframes bounce
   0%
@@ -545,6 +547,7 @@ body
 .landscape-project
 	background: url('../img/text .jpg')
 	background-repeat: no-repeat
+	background-position: center
 	background-size: cover
 	padding: 90px 0 60px
 	+r(768)
@@ -605,7 +608,7 @@ body
 			margin-bottom: 20px
 	&__top
 		padding: 40px 0
-		background: url('../img/rectangle.png')
+		background: url('../img/rectangle.jpg')
 		// opacity: 0.75
 		// background-image: url('../img/rectangle.jpg')
 		background-repeat: no-repeat
@@ -657,6 +660,7 @@ body
 	&__main
 		display: flex
 		justify-content: space-between
+		overflow: hidden
 		+r(768)
 			display: block
 	&__right
@@ -672,9 +676,6 @@ body
 			background-position: top right
 			padding: 100px 0 100px 
 			background-size: 570px 480px
-		+r(500)
-			// padding: 100px 0 180px
-			// background-size: 150%
 	&__right-in
 		+r(768)
 			padding: 0 20px
@@ -710,7 +711,7 @@ body
 		color: #E4F3DD
 	&__info-big
 		max-width: 388px
-		margin: 0 7% 0 auto
+		margin: 0 30px 0 auto
 		// position: absolute
 		// top: 20%
 		// right: 16%
@@ -859,11 +860,12 @@ body
 			padding: 0
 			background: white
 			border: none
+			transform: scale(1)
+			transition: transform 0.5s
 			button
 				opacity: 0
 		.slick-active
-			width: 15px
-			height: 15px
+			transform: scale(1.5)
 			background-color: green
 
 .video
@@ -1081,7 +1083,7 @@ body
 		margin-bottom: 25px
 		padding-left: 25px
 		flex-basis: 45%
-		height: 50px
+		min-height: 50px
 		display: flex
 		flex-direction: column
 		background: #6CBE45
@@ -1089,7 +1091,7 @@ body
 			border-radius: 20px 0px 0px 0px
 		&_brb
 			border-radius: 0px 0px 20px 0px
-			height: 140px
+
 	// &-wrap.requaired
 	//     &::after
 	//       content: ""
@@ -1122,7 +1124,6 @@ body
 	&__text
 	    position: absolute
 	    top: 50%
-	    padding-left: 30px
 	    display: flex
 	    align-items: center
 	    font-size: 14px
@@ -1130,8 +1131,11 @@ body
 	    color: #ffffff
 	    transform: translateY(-50%)
 	    transition: all 0.5s
+	    font-family: 'Gothic-Bold'
+	&__text_brb
+		top: 17%
 	&__input
-	   height: 50px
+	   min-height: 50px
 	   position: relative
 	   background: transparent
 	   border: none

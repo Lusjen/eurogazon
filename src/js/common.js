@@ -615,11 +615,13 @@ jQuery(document).ready(function($) {
 	$('.js-slider-work').slick({
 	  // dots: true,
 	  infinite: true,
-	  speed: 300,
+	  speed: 500,
 	  slidesToShow: 1,
 	  adaptiveHeight: true,
 	  arrows: false,
-	  dots: true
+	  dots: true,
+	  fade: true,
+	  cssEase: 'linear'
 	});
 
 	$('.slider-work__btn-prev').on('click', function(){
@@ -682,7 +684,7 @@ var mainForm = function () {
 
 
     
-    $('#contact-2').on('submit', function (e) {
+    $('#contact').on('submit', function (e) {
       event.preventDefault();
       var parent = e.target;
       ajax_form(parent);
@@ -718,21 +720,22 @@ var mainForm = function () {
             url: "",
             data: str,
             beforeSend: function () {
-              $(e).find('button.sand-form').text('Отправка...') // замена текста в кнопке при отправке
+              $(e).find('button.sand-form').text('Відправлення...') // замена текста в кнопке при отправке
             },
             error: function () {
-              $(e).find('button.sand-form').text('Ошибка отправки!'); // замена текста в кнопке при отправке в случае
+              $(e).find('button.sand-form').text('Помилка відправки!'); // замена текста в кнопке при отправке в случае
             }
 
           })
 
           .done(function (msg) {
             // success();
-            $('.form-succses').addClass('form-succses-active');
+            // $('.form-succses').addClass('form-succses-active');
             $(e).find('input').val('');
+             $(e).find('textarea').val('');
             // location.replace('/message/');
             //$(e).find('input').prev().removeClass('contact-form-input__text_active')
-            $(e).find('button.sand-form').text('Отправить')
+            $(e).find('button.sand-form').text('Надіслати')
             /*ga('send', {
               hitType: 'event',
               eventCategory: 'sendForm',
@@ -836,3 +839,8 @@ var mainForm = function () {
    type: 'image'
    // other options
  });
+
+ if($(window).width() > 768){
+		$(".auto-watering__left").addClass('wow fadeInLeft');
+		$(".auto-watering__right").addClass('wow fadeInRight');
+}

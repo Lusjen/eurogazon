@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>EG</title>
 	<meta name="description" content="">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
@@ -32,7 +32,7 @@
 			<div class="container header__mob">
 				<div class="header__wrap">
 					<div class="logo">
-						<img src="img/EG_logo_eng .svg" alt="logo">
+						<img src="./img/EG_logo_eng.svg" alt="logo">
 					</div>
 					<ul class="menu">
 						<li class="menu__item">
@@ -55,8 +55,8 @@
 						</li>
 					</ul>		
 					<div class="header__right">
-						<a href="tel:+8067 327-12-87" class="tel">
-							<img src="img/tel.svg" alt="">
+						<a href="tel:+8067327-12-87" class="tel">
+							<img src="./img/tel.svg" alt="">
 							<span class="tel__link">(067) 327-12-87</span>
 						</a>
 						<div class="lang">
@@ -143,16 +143,16 @@
 	<div class="hero" id="hero">
 		<div class="slider-hero js-slider-hero">
 			<div class="slider-hero__item">
-				<img src="img/bg-1.png" alt="">
+				<img src="./img/bg-1.png" alt="">
 			</div>
 			<div class="slider-hero__item">
-				<img src="img/bg-1.png" alt="">
+				<img src="./img/bg-1.png" alt="">
 			</div>
 			<div class="slider-hero__item">
-				<img src="img/bg-1.png" alt="">
+				<img src="./img/bg-1.png" alt="">
 			</div>
 			<div class="slider-hero__item">
-				<img src="img/bg-1.png" alt="">
+				<img src="./img/bg-1.png" alt="">
 			</div>
 		</div>
 		<div class="slider-hero__info wow slideInLeft" data-wow-delay="2s" 
@@ -173,10 +173,10 @@
 					</p>
 					<div class="slider-hero__btns">
 						<div class="slider-hero__btn slider-hero__btn-prev">
-							<img src="img/Arrow.svg" alt="">
+							<img src="./img/Arrow.svg" alt="">
 						</div>
 						<div class="slider-hero__btn slider-hero__btn-next">
-							<img src="img/Arrow.svg" alt="">
+							<img src="./img/Arrow.svg" alt="">
 						</div>
 					</div>
 				</div>		
@@ -216,65 +216,65 @@
 							</div>
 						</div>
 						<div class="slider-project__wrap js-slider-project">
-							<a href="img/project14.jpg" class="slider-project__item">
-								<img src="img/project14.jpg" alt="">
+							<a href="./img/project14.jpg" class="slider-project__item">
+								<img src="./img/project14.jpg" alt="">
 							</a>
-							<a href="img/project16.jpg" class="slider-project__item">
-								<img src="img/project16.jpg" alt="">
+							<a href="./img/project16.jpg" class="slider-project__item">
+								<img src="./img/project16.jpg" alt="">
 							</a>
-							<a href="img/project2.jpg" class="slider-project__item">
-								<img src="img/project2.jpg" alt="">
+							<a href="./img/project2.jpg" class="slider-project__item">
+								<img src="./img/project2.jpg" alt="">
 							</a>
-							<a href="img/project3.jpg" class="slider-project__item">
-								<img src="img/project3.jpg" alt="">
+							<a href="./img/project3.jpg" class="slider-project__item">
+								<img src="./img/project3.jpg" alt="">
 							</a>
-							<a href="img/project4.jpg" class="slider-project__item">
-								<img src="img/project4.jpg" alt="">
+							<a href="./img/project4.jpg" class="slider-project__item">
+								<img src="./img/project4.jpg" alt="">
 							</a>
-							<a href="img/project5.jpg" class="slider-project__item">
-								<img src="img/project5.jpg" alt="">
+							<a href="./img/project5.jpg" class="slider-project__item">
+								<img src="./img/project5.jpg" alt="">
 							</a>
-							<a href="img/project6.jpg" class="slider-project__item">
-								<img src="img/project6.jpg" alt="">
+							<a href="./img/project6.jpg" class="slider-project__item">
+								<img src="./img/project6.jpg" alt="">
 							</a>
-							<a href="img/project7.jpg" class="slider-project__item">
-								<img src="img/project7.jpg" alt="">
+							<a href="./img/project7.jpg" class="slider-project__item">
+								<img src="./img/project7.jpg" alt="">
 							</a>
-							<a href="img/project8.jpg" class="slider-project__item">
-								<img src="img/project8.jpg" alt="">
+							<a href="./img/project8.jpg" class="slider-project__item">
+								<img src="./img/project8.jpg" alt="">
 							</a>
-							<a href="img/project9.jpg" class="slider-project__item">
-								<img src="img/project9.jpg" alt="">
+							<a href="./img/project9.jpg" class="slider-project__item">
+								<img src="./img/project9.jpg" alt="">
 							</a>
-							<a href="img/project10.jpg" class="slider-project__item">
-								<img src="img/project10.jpg" alt="">
+							<a href="./img/project10.jpg" class="slider-project__item">
+								<img src="./img/project10.jpg" alt="">
 							</a>
-							<a href="img/project1.jpg" class="slider-project__item">
-								<img src="img/project1.jpg" alt="">
+							<a href="./img/project1.jpg" class="slider-project__item">
+								<img src="./img/project1.jpg" alt="">
 							</a>
-							<a href="img/project12.jpg" class="slider-project__item">
-								<img src="img/project12.jpg" alt="">
+							<a href="./img/project12.jpg" class="slider-project__item">
+								<img src="./img/project12.jpg" alt="">
 							</a>
-							<a href="img/project13.jpg" class="slider-project__item">
-								<img src="img/project13.jpg" alt="">
+							<a href="./img/project13.jpg" class="slider-project__item">
+								<img src="./img/project13.jpg" alt="">
 							</a>
-							<a href="img/project.jpg" class="slider-project__item">
-								<img src="img/project11.jpg" alt="">
+							<a href="./img/project.jpg" class="slider-project__item">
+								<img src="./img/project11.jpg" alt="">
 							</a>
-							<a href="img/project15.jpg" class="slider-project__item">
-								<img src="img/project15.jpg" alt="">
+							<a href="./img/project15.jpg" class="slider-project__item">
+								<img src="./img/project15.jpg" alt="">
 							</a>
-							<a href="img/project1.jpg" class="slider-project__item">
-								<img src="img/project1.jpg" alt="">
+							<a href="./img/project1.jpg" class="slider-project__item">
+								<img src="./img/project1.jpg" alt="">
 							</a>
-							<a href="img/project17.jpg" class="slider-project__item">
-								<img src="img/project17.jpg" alt="">
+							<a href="./img/project17.jpg" class="slider-project__item">
+								<img src="./img/project17.jpg" alt="">
 							</a>
-							<a href="img/project18.jpg" class="slider-project__item">
-								<img src="img/project18.jpg" alt="">
+							<a href="./img/project18.jpg" class="slider-project__item">
+								<img src="./img/project18.jpg" alt="">
 							</a>
-							<a href="img/project19.jpg" class="slider-project__item">
-								<img src="img/project19.jpg" alt="">
+							<a href="./img/project19.jpg" class="slider-project__item">
+								<img src="./img/project19.jpg" alt="">
 							</a>
 						</div>	
 					</div>
@@ -295,52 +295,52 @@
 			<div class="landscape-project__info">
 				<div class="landscape-project__item">
 					<ul class="list-block">
-						<li class="list-block__item wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.1s">
-							<img src="img/Icon 1.svg" alt="">
+						<li class="list-block__item wow fadeInDown">
+							<img src="./img/icon1.svg" alt="">
 							<span class="list-block__text"><span class="bold">Ландшафтний ескіз</span> дизайн проекту;</span>
 						</li>
-						<li class="list-block__item wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">
-							<img src="img/Icon 2.svg" alt="">
+						<li class="list-block__item wow fadeInDown">
+							<img src="./img/icon2.svg" alt="">
 							<span class="list-block__text"><span class="bold">3D-візуалізація</span> ландшафтного проекту;</span>
 						</li>
-						<li class="list-block__item wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s">
-							<img src="img/Icon 3.svg" alt="">
+						<li class="list-block__item wow fadeInDown">
+							<img src="./img/icon3.svg" alt="">
 							<span class="list-block__text"><span class="bold">2D-візуалізація</span> ландшафтного проекту;</span>
 						</li>
-						<li class="list-block__item wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.4s">
-							<img src="img/Icon 4.svg" alt="">
+						<li class="list-block__item wow fadeInDown">
+							<img src="./img/icon4.svg" alt="">
 							<span class="list-block__text"><span class="bold">Генеральний план</span> ландшафтного дизайн проекту;</span>
 						</li>
-						<li class="list-block__item wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
-							<img src="img/Icon 5.svg" alt="">
+						<li class="list-block__item wow fadeInDown">
+							<img src="./img/icon5.svg" alt="">
 							<span class="list-block__text"><span class="bold">Дендрологічний план</span> озеленення (дендроплан);</span>
 						</li>
-						<li class="list-block__item wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.6s">
-							<img src="img/Icon 6.svg" alt="">
+						<li class="list-block__item wow fadeInDown">
+							<img src="./img/icon6.svg" alt="">
 							<span class="list-block__text bold">Роздільне креслення</span>
 						</li>
 					</ul>
 				</div>
 				<div class="landscape-project__item">
 					<ul class="list-block">
-						<li class="list-block__item wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.7s">
-							<img src="img/Icon 7.svg" alt="">
+						<li class="list-block__item wow fadeInDown">
+							<img src="./img/icon7.svg" alt="">
 							<span class="list-block__text bold">Посадкове креслення;</span>
 						</li>
-						<li class="list-block__item wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.8s">
-							<img src="img/Icon 8.svg" alt="">
+						<li class="list-block__item wow fadeInDown">
+							<img src="./img/icon8.svg" alt="">
 							<span class="list-block__text"><span class="bold">План-схема системи</span> автоматичного поливу;</span>
 						</li>
-						<li class="list-block__item wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.9s">
-							<img src="img/Icon 9.svg" alt="">
+						<li class="list-block__item wow fadeInDown">
+							<img src="./img/icon9.svg" alt="">
 							<span class="list-block__text"><span class="bold">Схема розстановки</span> освітлювальних приладів;</span>
 						</li>
-						<li class="list-block__item wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="1s">
-							<img src="img/Icon 10.svg" alt="">
+						<li class="list-block__item wow fadeInDown">
+							<img src="./img/icon10.svg" alt="">
 							<span class="list-block__text"><span class="bold">Геодезична або топографічна</span> зйомка ділянки (при необхідності);</span>
 						</li>
-						<li class="list-block__item wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="1.1s">
-							<img src="img/Icon 11.svg" alt="">
+						<li class="list-block__item wow fadeInDown">
+							<img src="./img/icon11.svg" alt="">
 							<span class="list-block__text"><span class="bold">Робочі креслення</span> реалізації ландшафтного проектування дизайну озеленення.</span>
 						</li>						
 					</ul>
@@ -372,7 +372,7 @@
 						<span class="bold">Автоматичний полив вже давно перестав бути заморською дивиною</span> і використовується наразі для зрошування газонів в міських парках , на футбольних майданчиках та на ділянках заміських будинків.
 					</div>
 					<div class="auto-watering__images">
-						<img src="img/four.svg" alt="">
+						<img src="./img/four.svg" alt="">
 					</div>
 				</div>
 			</div>	
@@ -380,12 +380,12 @@
 		<div class="auto-watering__center" id="three">
 			<!-- <img src="img/maxresdefault.jpg" alt=""> -->
 			<div class="auto-watering__main">
-				<div class="auto-watering__left wow slideInLeft">
+				<div class="auto-watering__left">
 					<div class="auto-watering__item">
-						<img src="img/rectangle1.svg" alt="">
+						<img src="./img/rectangle1.svg" alt="">
 						<div class="auto-watering__info">
 							<div class="auto-watering__icon">
-								<img src="img/ball.svg" alt="">
+								<img src="./img/ball.svg" alt="">
 							</div>
 							<p>Спортивний Газон</p> 
 							<p class="text-big bold">65,00 грн/м</p>
@@ -393,17 +393,17 @@
 						
 					</div>
 					<div class="auto-watering__item">
-						<img src="img/rectangle1.svg" alt="" class="img-rotate">
+						<img src="./img/rectangle1.svg" alt="" class="img-rotate">
 						<div class="auto-watering__info">
 							<div class="auto-watering__icon">
-								<img src="img/butterfl.svg" alt="">
+								<img src="./img/butterfl.svg" alt="">
 							</div>
 							<p>Універсальний Газон</p> 
 							<p class="text-big bold">57,00 грн/м</p>
 						</div>
 					</div>
 				</div>
-				<div class="auto-watering__right  wow slideInRight">
+				<div class="auto-watering__right">
 					<div class="auto-watering__right-in">
 					<!-- img src="img/letter.svg" alt=""> -->
 						<div class="auto-watering__info-big">
@@ -426,7 +426,7 @@
 			<div class="container">
 				<div class="auto-watering__in">
 					<div class="auto-watering__proect">
-						<img src="img/dozgdevanie.png" alt="">
+						<img src="./img/dozgdevanie.png" alt="">
 					</div>
 					<div class="auto-watering__description">
 						<div class="auto-watering__description-name title-sm">
@@ -463,21 +463,21 @@
 		<div class="slider-work">
 			<div class="slider-work__in js-slider-work">
 				<div class="slider-work__item">
-					<img src="img/slider-work1.jpg" alt="">
+					<img src="./img/slider-work1.jpg" alt="">
 				</div>
 				<div class="slider-work__item">
-					<img src="img/slider-work1.jpg" alt="">
+					<img src="./img/slider-work1.jpg" alt="">
 				</div>
 				<div class="slider-work__item">
-					<img src="img/slider-work1.jpg" alt="">
+					<img src="./img/slider-work1.jpg" alt="">
 				</div>
 			</div>
 			<div class="slider-work__btns">
 				<div class="slider-work__btn-prev">
-					<img src="img/Arrow.svg" alt="">
+					<img src="./img/Arrow.svg" alt="">
 				</div>
 				<div class="slider-work__btn-next">
-					<img src="img/Arrow.svg" alt="">
+					<img src="./img/Arrow.svg" alt="">
 				</div>
 			</div>	
 		</div>
@@ -489,7 +489,7 @@
 							Назва відео
 						</div>
 						<div class="video__video">
-							<video  width="400" height="300" class="js-video" poster="img/vide-bg.jpg">
+							<video  width="400" height="300" class="js-video" poster="./img/vide-bg.jpg">
 							  <source src="video/video.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
 							  <source src="video.webm" type="video/video.webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
 							</video>
@@ -500,7 +500,7 @@
 							Назва відео
 						</div>
 						<div class="video__video">
-							<video  width="400" height="300" class="js-video" poster="img/vide-bg.jpg">
+							<video  width="400" height="300" class="js-video" poster="./img/vide-bg.jpg">
 							  <source src="video/video.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
 							  <source src="video.webm" type="video/video.webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
 							</video>
@@ -535,7 +535,7 @@
 						<div class="slider-reviews__item">
 							<div class="slider-reviews__item-in">
 								<div class="slider-reviews__img">
-									<img src="img/client.jpg" alt="">
+									<img src="./img/client.jpg" alt="">
 								</div>
 								<div class="slider-reviews__info">
 									<p class="slider-reviews__name title-sm">
@@ -550,7 +550,7 @@
 						<div class="slider-reviews__item">
 							<div class="slider-reviews__item-in">
 								<div class="slider-reviews__img">
-									<img src="img/client2.jpg" alt="">
+									<img src="./img/client2.jpg" alt="">
 								</div>
 								<div class="slider-reviews__info">
 									<p class="slider-reviews__name title-sm">
@@ -565,7 +565,7 @@
 						<div class="slider-reviews__item">
 							<div class="slider-reviews__item-in">
 								<div class="slider-reviews__img">
-									<img src="img/client2.jpg" alt="">
+									<img src="./img/client2.jpg" alt="">
 								</div>
 								<div class="slider-reviews__info">
 									<p class="slider-reviews__name title-sm">
@@ -595,24 +595,24 @@
 		</div>
 		<div class="contacts__main">
 			<div class="contacts__form wow slideInLeft">
-				<form class="mainForm" id="contact-2">
+				<form class="mainForm" id="contact">
 					<div class="mainForm__title">
 						<p class="text-bold">У Вас виникли запитання?</p>
 						<p class="text-bold">Напишіть нам!</p>
 					</div>
 		            <div class="mainForm-wrap mainForm-wrap_brt requaired">
-		              <span class="mainForm__text" data-defaultMessage="Имя:" data-errorMessage="Імя не заповнено"></span>
-		              <input name="name" type="text" class="mainForm__input mainForm__input-requaired" placeholder="Вашe ім'я:">
+		              <span class="mainForm__text" data-defaultMessage="Имя:" data-errorMessage="Імя не заповнено:">Ваше ім'я:</span>
+		              <input name="name" type="text" class="mainForm__input mainForm__input-requaired">
 		            </div>
 		            <!--  </mainForm-wrap> -->
 		            <div class="mainForm-wrap requaired">
-		              <span class="mainForm__text" data-defaultMessage="Ваш телефон:" data-errorMessage="Телефон не заповнений"></span>
-		              <input name="tel" type="text" class="mainForm__input mainForm__input-requaired inputtelmask" placeholder="Ваш телефон:">
+		              <span class="mainForm__text" data-defaultMessage="Ваш телефон:" data-errorMessage="Телефон не заповнений:">Ваш телефон:</span>
+		              <input name="tel" type="text" class="mainForm__input mainForm__input-requaired inputtelmask">
 		            </div>
 		            <!--  </mainForm-wrap> -->
 		            <div class="mainForm-wrap mainForm-wrap_brb">
-		              <span class="mainForm__text " data-defaultMessage="Повідомлення:" data-errorMessage="Заповніть повідомлення"></span>
-		              <input placeholder="Ваше повідомлення:" name="message" type="text" class="mainForm__input" >
+		              <span class="mainForm__text mainForm__text_brb " data-defaultMessage="Повідомлення:" data-errorMessage="Заповніть повідомлення">Заповніть повідомлення:</span>
+		              <textarea  rows="10" cols="45" name="message" class="mainForm__input"></textarea>
 		            </div>
 		            <!--  </mainForm-wrap> -->
 		            <button class="button button--purple sand-form">Надіслати
@@ -700,7 +700,7 @@
 			<div class="footer__in">
 				<div class="copyright">© 2018 Еврогазон усі права захищено</div>
 				<div class="logo-dev">
-					<a href=""><img src="img/logo-dev.svg" alt=""></a>
+					<a href=""><img src="./img/logo-dev.svg" alt=""></a>
 				</div>
 			</div>
 		</div>
