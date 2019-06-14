@@ -31,9 +31,9 @@
 		<div class="header__in">
 			<div class="container header__mob">
 				<div class="header__wrap">
-					<div class="logo">
+					<a href="http://evrogazon.smarto.com.ua/" class="logo">
 						<img src="./img/EG_logo_eng.svg" alt="logo">
-					</div>
+					</a>
 					<ul class="menu">
 						<li class="menu__item">
 							<a href="#project" class="menu__link">Проектування</a>
@@ -295,52 +295,52 @@
 			<div class="landscape-project__info">
 				<div class="landscape-project__item">
 					<ul class="list-block">
-						<li class="list-block__item wow fadeInDown">
-							<img src="./img/icon1.svg" alt="">
+						<li class="list-block__item">
+							<img src="./img/icon1.svg" alt="" class="wow fadeInDown">
 							<span class="list-block__text"><span class="bold">Ландшафтний ескіз</span> дизайн проекту;</span>
 						</li>
-						<li class="list-block__item wow fadeInDown">
-							<img src="./img/icon2.svg" alt="">
+						<li class="list-block__item">
+							<img src="./img/icon2.svg" alt="" class="wow fadeInDown">
 							<span class="list-block__text"><span class="bold">3D-візуалізація</span> ландшафтного проекту;</span>
 						</li>
-						<li class="list-block__item wow fadeInDown">
-							<img src="./img/icon3.svg" alt="">
+						<li class="list-block__item">
+							<img src="./img/icon3.svg" alt="" class="wow fadeInDown">
 							<span class="list-block__text"><span class="bold">2D-візуалізація</span> ландшафтного проекту;</span>
 						</li>
-						<li class="list-block__item wow fadeInDown">
-							<img src="./img/icon4.svg" alt="">
+						<li class="list-block__item">
+							<img src="./img/icon4.svg" alt="" class="wow fadeInDown">
 							<span class="list-block__text"><span class="bold">Генеральний план</span> ландшафтного дизайн проекту;</span>
 						</li>
-						<li class="list-block__item wow fadeInDown">
-							<img src="./img/icon5.svg" alt="">
+						<li class="list-block__item">
+							<img src="./img/icon5.svg" alt="" class="wow fadeInDown">
 							<span class="list-block__text"><span class="bold">Дендрологічний план</span> озеленення (дендроплан);</span>
 						</li>
-						<li class="list-block__item wow fadeInDown">
-							<img src="./img/icon6.svg" alt="">
+						<li class="list-block__item">
+							<img src="./img/icon6.svg" alt="" class="wow fadeInDown">
 							<span class="list-block__text bold">Роздільне креслення</span>
 						</li>
 					</ul>
 				</div>
 				<div class="landscape-project__item">
 					<ul class="list-block">
-						<li class="list-block__item wow fadeInDown">
-							<img src="./img/icon7.svg" alt="">
+						<li class="list-block__item">
+							<img src="./img/icon7.svg" alt="" class="wow fadeInDown">
 							<span class="list-block__text bold">Посадкове креслення;</span>
 						</li>
-						<li class="list-block__item wow fadeInDown">
-							<img src="./img/icon8.svg" alt="">
+						<li class="list-block__item">
+							<img src="./img/icon8.svg" alt="" class="wow fadeInDown">
 							<span class="list-block__text"><span class="bold">План-схема системи</span> автоматичного поливу;</span>
 						</li>
-						<li class="list-block__item wow fadeInDown">
-							<img src="./img/icon9.svg" alt="">
+						<li class="list-block__item">
+							<img src="./img/icon9.svg" alt="" class="wow fadeInDown">
 							<span class="list-block__text"><span class="bold">Схема розстановки</span> освітлювальних приладів;</span>
 						</li>
-						<li class="list-block__item wow fadeInDown">
-							<img src="./img/icon10.svg" alt="">
+						<li class="list-block__item">
+							<img src="./img/icon10.svg" alt="" class="wow fadeInDown">
 							<span class="list-block__text"><span class="bold">Геодезична або топографічна</span> зйомка ділянки (при необхідності);</span>
 						</li>
-						<li class="list-block__item wow fadeInDown">
-							<img src="./img/icon11.svg" alt="">
+						<li class="list-block__item">
+							<img src="./img/icon11.svg" alt="" class="wow fadeInDown">
 							<span class="list-block__text"><span class="bold">Робочі креслення</span> реалізації ландшафтного проектування дизайну озеленення.</span>
 						</li>						
 					</ul>
@@ -700,7 +700,7 @@
 			<div class="footer__in">
 				<div class="copyright">© 2018 Еврогазон усі права захищено</div>
 				<div class="logo-dev">
-					<a href=""><img src="./img/logo-dev.svg" alt=""></a>
+					<a href="https://smarto.agency/"><img src="./img/logo-dev.svg" alt=""></a>
 				</div>
 			</div>
 		</div>
