@@ -621,7 +621,15 @@ jQuery(document).ready(function($) {
 	  arrows: false,
 	  dots: true,
 	  fade: true,
-	  cssEase: 'linear'
+	  cssEase: 'linear',
+	   responsive: [
+	      {
+	        breakpoint: 768,
+	        settings: {
+	          dots: false
+	        }
+	      } 
+	    ]
 	});
 
 	$('.slider-work__btn-prev').on('click', function(){
@@ -771,7 +779,7 @@ var mainForm = function () {
 
   $(".menu").on("click",".menu__item a", function (event) {
           //отменяем стандартную обработку нажатия по ссылке
-          event.preventDefault();
+          // event.preventDefault();
 
           //забираем идентификатор блока с атрибута href
           var id  = $(this).attr('href'),

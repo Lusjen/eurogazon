@@ -91,7 +91,7 @@
 				</svg>
 			</div>
 			<div class="social-icons">
-				<a href="">
+				<a href="https://www.facebook.com/evrogazon.com.ua/">
 					<svg class="svg-facebook">
 						<use xlink:href="#icon-facebook"></use>
 					</svg>
@@ -101,7 +101,7 @@
 						<use xlink:href="#icon-instagram"></use>
 					</svg>
 				</a>
-				<a href="">
+				<a href="https://www.youtube.com/channel/UC-IzGcx0PLIzWm8dna6FACQ">
 					<svg class="svg-youtube">
 						<use xlink:href="#icon-youtube"></use>
 					</svg>
@@ -466,11 +466,48 @@
 					<img src="./img/slider-work1.jpg" alt="">
 				</div>
 				<div class="slider-work__item">
-					<img src="./img/slider-work1.jpg" alt="">
+					<img src="./img/slider-work2.jpg" alt="">
 				</div>
 				<div class="slider-work__item">
-					<img src="./img/slider-work1.jpg" alt="">
+					<img src="./img/slider-work3.jpg" alt="">
 				</div>
+				<div class="slider-work__item">
+					<img src="./img/slider-work4.jpg" alt="">
+				</div>
+				<div class="slider-work__item">
+					<img src="./img/slider-work5.jpg" alt="">
+				</div>
+				<div class="slider-work__item">
+					<img src="./img/slider-work6.jpg" alt="">
+				</div>
+				<div class="slider-work__item">
+					<img src="./img/slider-work7.jpg" alt="">
+				</div>
+				<div class="slider-work__item">
+					<img src="./img/slider-work8.jpg" alt="">
+				</div>
+				<div class="slider-work__item">
+					<img src="./img/slider-work9.jpg" alt="">
+				</div>
+				<div class="slider-work__item">
+					<img src="./img/slider-work10.jpg" alt="">
+				</div>
+				<div class="slider-work__item">
+					<img src="./img/slider-work11.jpg" alt="">
+				</div>
+				<div class="slider-work__item">
+					<img src="./img/slider-work12.jpg" alt="">
+				</div>
+				<div class="slider-work__item">
+					<img src="./img/slider-work13.jpg" alt="">
+				</div>
+				<div class="slider-work__item">
+					<img src="./img/slider-work14.jpg" alt="">
+				</div>
+				<div class="slider-work__item">
+					<img src="./img/slider-work15.jpg" alt="">
+				</div>
+				
 			</div>
 			<div class="slider-work__btns">
 				<div class="slider-work__btn-prev">
@@ -500,9 +537,9 @@
 							Назва відео
 						</div>
 						<div class="video__video">
-							<video  width="400" height="300" class="js-video" poster="./img/vide-bg.jpg">
-							  <source src="video/video.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
-							  <source src="video.webm" type="video/video.webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+							<video  width="400" height="300" class="js-video" poster="./img/video-bg1.jpg">
+							  <source src="video/video1.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+							  <source src="video1.webm" type="video/video.webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
 							</video>
 						</div>
 					</div>
@@ -673,12 +710,12 @@
 					<div class="contacts__soc">
 						<p>Слідкуйте за нами у соц. мережах</p>
 						<div class="soc-list">
-							<a href="" class="soc-list__link">
+							<a href="https://www.facebook.com/evrogazon.com.ua/" class="soc-list__link">
 								<svg class="svg-facebook">
 							       <use xlink:href="#icon-facebook"></use>
 							    </svg>
 							</a>
-							<a href="" class="soc-list__link">
+							<a href="https://www.youtube.com/channel/UC-IzGcx0PLIzWm8dna6FACQ" class="soc-list__link">
 								<svg class="svg-youtube">
 							       <use xlink:href="#icon-youtube"></use>
 							    </svg>
@@ -699,6 +736,30 @@
 		<div class="container">
 			<div class="footer__in">
 				<div class="copyright">© 2018 Еврогазон усі права захищено</div>
+				<div class="article">
+					<ul class="article__list">
+						<li class="article__item"><a href="iskusstvennaya-trava" class="article__link">Искусственная трава</a></li>
+						<li class="article__item"><a href="/gde-kupit-gazon" class="article__link">Где купить газон?</a></li>
+						<li class="article__link"><a href="/iskusstvennyj-gazon" class="article__link">Искусственный газон</a></li>
+						<li class="article__item"><a href="/semena-dlya-gazona" class="article__link">Семена для газона</a></li>
+						<li class="article__item"><a href="/gazon" class="article__link">Газон</a></li>
+						<li class="article__item"><a href="/uhod-za-gazonom" class="article__link">Уход за газоном</a></li>
+						<li class="article__item"><a href="/gazon-rulonnyy" class="article__link">Газон рулонный</a></li>
+						<li class="article__item"><a href="/rulonnyy-gazon-cena" class="article__link">Рулонный газон. Цена.</a></li>
+						<li class="article__item"><a href="/avtopoliv" class="article__link">Автополив</a></li>
+						<li class="article__item"><a href="/montazh-avtopoliva" class="article__link">Монтаж автополива</a></li>
+						<li class="article__item"><a href="/rulonnyy-gazon-v-kieve" class="article__link">Рулонный газон в Киеве</a></li>
+						<li class="article__item"><a href="/semena-travy" class="article__link">Семена травы</a></li>
+						<li class="article__item"><a href="/gde-kupit-rulonnyy-gazon" class="article__link">Где купить рулонный газон?</a></li>
+						<li class="article__item"><a href="/poliv-gazona" class="article__link">Полив газона</a></li>
+						<li class="article__item"><a href="/gazonnaya-trava-cena" class="article__link">Газонная трава. Цена</a></li>
+						<li class="article__item"><a href="/gazon-v-rulonah" class="article__link">Газон в рулонах</a></li>
+						<li class="article__item"><a href="/avtomaticheskiy-poliv" class="article__link">Автоматический полив</a></li>
+						<li class="article__item"><a href="/gazonnaya-trava-v-rulonah" class="article__link">Газонная трава в рулонах</a></li>
+						<li class="article__item"><a href="/rulonnyj-gazon-kiev" class="article__link">рулонный газон киев</a></li>
+					</ul>
+					<a href="#" class="article__name">Статьи</a>
+				</div>
 				<div class="logo-dev">
 					<a href="https://smarto.agency/"><img src="./img/logo-dev.svg" alt=""></a>
 				</div>

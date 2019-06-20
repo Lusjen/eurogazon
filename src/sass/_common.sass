@@ -314,6 +314,8 @@ body
 	position: absolute
 	right: 10px
 	top: 20vh
+	width: 60px
+	height: 60px
 	// transition: rotate 2s
 	animation-name: bounce
 	animation-duration: 4s
@@ -612,12 +614,13 @@ body
 			margin-bottom: 20px
 	&__top
 		padding: 40px 0
-		background: url('../img/rectangle.jpg')
+		background-color: #003820
+		// background: url('../img/rectangle.jpg')
 		// opacity: 0.75
 		// background-image: url('../img/rectangle.jpg')
-		background-repeat: no-repeat
-		background-position: center
-		background-size: cover
+		// background-repeat: no-repeat
+		// background-position: center
+		// background-size: cover
 		color: #E4F3DD
 		+r(768)
 			padding: 20px 0
@@ -653,7 +656,7 @@ body
 			padding-right: 0
 	&__center
 		position: relative
-		background: url('../img/maxresdefault.jpg')
+		background: url('../img/maxresdefault1.jpg')
 		background-repeat: no-repeat
 		background-position: center
 		background-size: cover
@@ -800,7 +803,7 @@ body
 			display: block
 			width: 100%
 			object-fit: cover
-			height: 600px
+			height: 800px
 			// max-height: 700px
 			+r(1280)
 				height: 360px
@@ -901,6 +904,7 @@ body
 .video__video > video
     width: 100%
     vertical-align: middle
+    object-fit: cover
 
 .video__video > video.has-media-controls-hidden::-webkit-media-controls
     display: none
@@ -1312,3 +1316,45 @@ body
 		width: 32px
 		height: 32px
 		fill: white
+
+.article
+	position: relative
+	bottom: 0
+	margin-left: 0px
+	width: 200px
+	&__list
+		opacity: 0
+		visibility: hidden
+		position: absolute
+		list-style: none
+		bottom: 0px
+		text-align: left
+		background: white
+		margin-bottom: 25px
+		transition: all 0.5s
+		border-radius: 30px 0
+		padding: 20px
+		background-color: #154C23
+	&__name
+		color: #ffffff
+		text-decoration: none
+	&__link
+		text-decoration: none
+		color: #ffffff
+		font-size: 10px
+
+.article
+	&:hover ul
+		opacity: 0.9
+		visibility: visible
+
+.main
+	padding: 100px 20px 30px
+	&__title
+		font-size: 50px
+		text-align: center
+		+r(768)
+			font-size: 20px
+	p
+		margin: 10px 0
+		font-family: 'Gothic'
